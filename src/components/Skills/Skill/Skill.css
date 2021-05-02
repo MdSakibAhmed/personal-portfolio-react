@@ -1,0 +1,10 @@
+.skill-box{
+    border:1px solid rgb(75, 255, 165);
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: border 1s ;
+}
+.skill-box:hover {
+    border: 3px solid rgb(75, 255, 165);
+  
+}

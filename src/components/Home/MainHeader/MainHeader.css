@@ -1,0 +1,49 @@
+
+.welcome{
+    position: absolute;
+    top:30%;
+    left:30%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    color:white;
+}
+.welcome h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 55px;
+}
+.type-effect{
+    font-size: 30px;
+}
+.button-action{
+    border: 1px solid rgb(75, 255, 165);;
+    border-radius: 2px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.button-action:hover {
+    background-color: rgb(75, 255, 165);
+    color:black;
+}
+
+#introduction{
+    position: absolute;
+    top: 100%;
+    left:12%;
+    
+}
+#introduction h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 55px;
+    color:white;
+
+}
+
+#introduction p {
+    color:white;
+    font-size:25px;
+    margin-top:30px;
+
+}
+.highlightedText{
+    color:rgb(75, 255, 165)
+}
