@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import "./ContactForm.css"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
-import { emailjs } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 const ContactForm = () => {
   const { register, errors, handleSubmit, reset } = useForm();
   const toastifySuccess = () => {
@@ -28,7 +28,7 @@ const ContactForm = () => {
         subject: data.subject,
         message: data.message
       };
-      await emailjs.sendForm(
+      await emailjs.send(
         "service_vo4np8h",
         "template_zjvpbs4",
         templateParams,

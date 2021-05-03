@@ -11,6 +11,7 @@ import Home from './components/Home/Home/Home';
 import Skills from './components/Skills/Skills/Skills';
 import HeaderNavbar from './components/Home/HeaderNavbar/HeaderNavbar';
 import Contact from './components/Contact/Contact/Contact';
+import Projects from './components/Projects/Projects/Projects';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
   </Route>
   <Route path='/contact'>
     <Contact></Contact>
+  </Route>
+  <Route path='/projects'>
+    <Projects></Projects>
   </Route>
 </Switch>
       

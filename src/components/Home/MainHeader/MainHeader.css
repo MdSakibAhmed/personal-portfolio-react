@@ -1,10 +1,10 @@
 
 .welcome{
-    position: absolute;
-    top:30%;
-    left:30%;
-    transform: translateY(-50%);
-    transform: translateX(-50%);
+    background: linear-gradient( rgb(54, 56, 65) ,
+    rgba(3, 3, 29, 1) );
+ 
+    
+   
     color:white;
 }
 .welcome h1 {
@@ -26,9 +26,7 @@
 }
 
 #introduction{
-    position: absolute;
-    top: 100%;
-    left:12%;
+    
     
 }
 #introduction h1{
