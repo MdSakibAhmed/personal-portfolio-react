@@ -14,18 +14,20 @@ const MainHeader = () => {
     <div className="welcome d-flex  flex-wrap">
       <div className="mt-4 ml-5 mt-5">
         <ul className="d-flex flex-md-column" style={{ listStyleType: "none" }}>
-          <li className="mb-3">
-            <FontAwesomeIcon icon={faLinkedin} />{" "}
+
+        
+        <li>
+          <a href="https://www.linkedin.com/in/md-sakib-ahmed/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+            
+          </li>
+        <li className="mb-3">
+        <a href="https://github.com/MdSakibAhmed" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
           </li>
           <li className="mb-3">
-            <FontAwesomeIcon icon={faGithub} />
+          <a href="https://codepen.io/mdsakibahmed" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCodepen} /></a>
+            
           </li>
-          <li className="mb-3">
-            <FontAwesomeIcon icon={faCodepen} />
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faTwitter} />
-          </li>
+          
         </ul>
       </div>
 
