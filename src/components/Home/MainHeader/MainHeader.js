@@ -9,29 +9,30 @@ import {
   faCodepen,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 const MainHeader = () => {
   return (
-    <div className="welcome d-flex  flex-wrap">
-      <div className="mt-4 ml-5 mt-5">
+    <div className="welcome row ">
+      <div className=" col-md-1  mb-md-5 offset-md-2 mt-5">
         <ul className="d-flex flex-md-column" style={{ listStyleType: "none" }}>
 
         
-        <li>
-          <a href="https://www.linkedin.com/in/md-sakib-ahmed/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+        <li className="mb-3">
+          <a className="text-white" href="https://www.linkedin.com/in/md-sakib-ahmed/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
             
           </li>
         <li className="mb-3">
-        <a href="https://github.com/MdSakibAhmed" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+        <a className="text-white" href="https://github.com/MdSakibAhmed" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
           </li>
-          <li className="mb-3">
-          <a href="https://codepen.io/mdsakibahmed" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCodepen} /></a>
+          <li className="mb-3 ">
+          <a className="text-white" href="https://codepen.io/mdsakibahmed" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCodepen} /></a>
             
           </li>
           
         </ul>
       </div>
 
-      <div className="ml-5 mt-5 mr-2">
+      <div className="col-md-5 offset-md-0 offset-1 mt-md-5 mr-2">
         <h1>Hi, I am</h1>
         <h1>
           {" "}
@@ -53,10 +54,11 @@ const MainHeader = () => {
         </p>
 
      
-          <button className="bg-transparent mb-3 button-action text-white p-2">
+     <Link to="/projects"><button className="bg-transparent mb-3 button-action text-white p-2">
             View My Work
-          </button>
-          <a href="https://drive.google.com/file/d/16p-e1xOuu9Zm1j8nS8bUWy3xgn282D01/view?usp=sharing">
+          </button></Link>
+          
+          <a href="https://drive.google.com/file/d/16p-e1xOuu9Zm1j8nS8bUWy3xgn282D01/view?usp=sharing" target="_blank" rel="noreferrer">
             {" "}
             <button className="bg-transparent button-action text-white p-2">
               {" "}
@@ -66,7 +68,7 @@ const MainHeader = () => {
     
       </div>
 
-      <div className="mt-5 ml-5 mr-2" id="introduction">
+      <div className="mt-5 offset-md-2 offset-1  mr-2" id="introduction">
         <h1>
           Know Who <span className="highlightedText">I am</span>{" "}
         </h1>

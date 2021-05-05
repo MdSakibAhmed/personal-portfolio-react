@@ -9,7 +9,7 @@ const HeaderNavbar = () => {
     return (
 
 <Navbar bg="dark" className="p-4" expand="lg">
-  <Navbar.Brand as={Link} to="/"><img src={ProfileImg} alt=''/></Navbar.Brand>
+  <Navbar.Brand className="ml-5" as={Link} to="/"><img src={ProfileImg} alt=''/></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto text-white mr-5">

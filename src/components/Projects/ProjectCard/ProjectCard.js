@@ -7,7 +7,7 @@ import { Carousel } from 'react-bootstrap';
 const ProjectCard = ({project}) => {
     const {title,description,features,technology,links,sliderImgs} = project;
     return (
-        <div className="row border bg-white mb-4 shadow rounded pt-5 pb-2 mt-3">
+        <div className="row border bg-white mb-4 pb-5 shadow rounded pt-5 pb-2 mt-3">
             <div className="col-md-6">
                
                 <Carousel>
